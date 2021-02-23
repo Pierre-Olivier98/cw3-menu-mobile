@@ -1,0 +1,21 @@
+.menu-hamburger{
+  cursor: pointer;
+}
+.hamburger-animated{
+  .material-icons{
+    font-size: 2.25rem;
+    color: var(--color-text-primary);
+  }
+  .icon-close{
+    display: none;
+  }
+
+  &.open{
+    .icon-close{
+      display: block;
+    }
+    .icon-open{
+      display: none;
+    }
+  }
+}
